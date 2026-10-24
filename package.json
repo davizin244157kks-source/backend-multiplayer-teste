@@ -1,0 +1,15 @@
+{
+  "name": "backend-multiplayer-teste",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend independente de testes multiplayer com Node.js e WebSocket",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test:client": "node test/client.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
